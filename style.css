@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 18px;
+}
+
+.main-container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+
+/* ///////////////// */
+
+/* nav starts here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited {
+  text-decoration: none;
+  margin-left: 30px;
+  color: hsl(243, 87%, 12%);
+}
+
+.nav-link a:hover {
+  font-weight: bold;
+}
+/* nav ends here */
+
+/* //////////////////// */
+
+/* header starts here */
+.header-all-text h1,
+.header-all-text p {
+  margin-bottom: 20px;
+}
+
+.header-button {
+  padding: 11px 60px;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.header-input {
+  width: 300px;
+  margin-right: 10px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container h1 {
+  font-size: 45px;
+}
+/* Header ends here */
+
+/* //////////////////// */
+
+/* Stay productive starts here */
+.ctn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*The first css I wrote and the background
+image didn't grow
+ .stay-prod-main {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(240, 75%, 98%);
+} */
+
+.stay-prod-main {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.stay-prod-text h2 {
+  font-size: 43px;
+  margin-bottom: 25px;
+}
+
+.stay-prod-text a:link,
+.stay-prod-text a:visited {
+  font-family: sans-serif;
+  color: hsl(170, 45%, 43%);
+}
+
+.stay-prod-text a:hover {
+  font-weight: bold;
+}
+
+.stay-p1 {
+  margin-bottom: 20px;
+}
+
+.stay-p2 {
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  margin-top: 30px;
+}
+
+.testimonial-p1 {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-img {
+  border-radius: 50px;
+}
+
+.avatar-text p {
+  font-size: 12px;
+}
+
+.avatar-text h4 {
+  font-weight: bold;
+}
+/* Stay Productive ends here */
+
+/* ///////////////// */
+
+/* Interactive AR starts here */
+/* .interactive-3d {
+  margin-bottom: 40px;
+} */
+
+.ctn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swift-ar {
+  width: 800px;
+  height: 800px;
+  /* border: 2px solid hsl(238, 22%, 44%);*/
+}
+
+.sketchfab-ar {
+  width: 600px;
+  height: 500px;
+}
+/* Interactive AR ends here */
+
+/* ///////////////////// */
+
+/* article starts here */
+article {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.early-access {
+  padding: 90px 0 60px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.early-access-text h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.early-access-input {
+  height: 45px;
+  width: 500px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.early-access-button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  cursor: pointer;
+}
+
+.early-access-button:hover {
+  background-color: hsl(243, 87%, 12%);
+}
+
+/* article ends here */
+
+/* ///////////// */
+
+/* footer starts here */
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footer-container {
+  padding-bottom: 30px;
+}
+
+.footer-img {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a:link,
+.footer-links a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  font-weight: bold;
+}
+
+.footer-img {
+  filter: invert(97%) sepia(0%) saturate(7500%) hue-rotate(166deg)
+    brightness(109%) contrast(102%);
+}
+
+.icon-img {
+  margin-right: 20px;
+}
